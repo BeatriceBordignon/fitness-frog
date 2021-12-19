@@ -85,7 +85,6 @@ namespace Treehouse.FitnessFrog.Controllers
             //TODO Populate the ActivitiesSelectListItems ViewBag property
             SetUpActivitiesSelectListItems();
 
-
             //TODO Pass the entry into the view
 
             return View(entry);
@@ -103,7 +102,6 @@ namespace Treehouse.FitnessFrog.Controllers
             }
 
             SetUpActivitiesSelectListItems();
-
 
             return View(entry);
         }
